@@ -1,11 +1,8 @@
 .App{
-	display: grid;
-	grid-template-columns: 0.1fr 0.1fr 0.1fr;
-	grid-gap: 10px;
     margin-left: auto;
     margin-right: auto;
     background: linear-gradient(180deg, #4568DC 0%, #B06AB3 100%), #EF8E48;
-    padding-left: 350px;
+    height: 900px;
 }
 
 img{
@@ -18,14 +15,11 @@ img:hover{
 	transform: scale(-1, 1);
 }
 
+.buttviget{
+    width: 200px;
+    height: 50px;
+}
 
-.modaltrue {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9000;
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-    opacity: 0.3;
+.closeviget{
+    float: right;
 }
