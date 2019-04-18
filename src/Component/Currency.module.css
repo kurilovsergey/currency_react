@@ -1,0 +1,69 @@
+@import url(http://allfont.ru/allfont.css?fonts=roboto-regular);
+
+
+.ticket{
+    width: 1000px;
+    height: 403px;
+    font-family: 'Roboto Regular', arial;
+    padding-top: 7px;
+    
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.tab_content{
+    
+    width: 296px;
+    height: 268px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    padding-left: 11px;
+    padding-top: 14px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.active{
+    background-color: #444444;
+    width: 75px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    font-weight:bold;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.nonactive{
+    width: 75px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #CFCFCF;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.nonactive:hover{
+    background-color: #888888;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.currencylist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
